@@ -34,7 +34,7 @@ while True:
             l1 = "".join(str(x) for x in z)
             substring_length = 64
             substrings = [l1[i:i + substring_length] for i in range(0, len(l1), substring_length)]
-            print("string in 64 bit block: ", substrings)
+            print("string in 64  block: ", substrings)
 
 
         string_to_64bit()
